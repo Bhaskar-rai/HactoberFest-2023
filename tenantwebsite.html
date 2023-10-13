@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Student-Room Owner Connection</title>
+</head>
+<body>
+    <h1>Student-Room Owner Connection</h1>
+    
+    <h2>Search for Available Rooms</h2>
+    <form action="/search" method="get">
+        <label for="location">Location:</label>
+        <input type="text" id="location" name="location">
+        <br><br>
+        <label for="budget">Budget:</label>
+        <input type="number" id="budget" name="budget">
+        <br><br>
+        <input type="submit" value="Search">
+    </form>
+
+    <h2>List of Available Rooms</h2>
+    <ul>
+        <li><strong>Room 1</strong> - Location: Downtown, Rent: $500/month</li>
+        <li><strong>Room 2</strong> - Location: Suburb, Rent: $400/month</li>
+        <!-- Add more room listings here -->
+    </ul>
+</body>
+</html>
